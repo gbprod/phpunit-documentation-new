@@ -73,7 +73,7 @@ class SampleTest extends TestCase
     </para>
 
     <screen><userinput>phpunit --verbose SampleTest</userinput>
-PHPUnit 6.5.0 by Sebastian Bergmann and contributors.
+PHPUnit 5.7.0 by Sebastian Bergmann and contributors.
 
 I
 
@@ -167,7 +167,7 @@ class DatabaseTest extends TestCase
     </para>
 
     <screen><userinput>phpunit --verbose DatabaseTest</userinput>
-PHPUnit 6.5.0 by Sebastian Bergmann and contributors.
+PHPUnit 5.7.0 by Sebastian Bergmann and contributors.
 
 S
 

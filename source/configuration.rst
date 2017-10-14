@@ -18,7 +18,7 @@ be used to configure PHPUnit's core functionality.
 
     <phpunit
              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-             xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/6.3/phpunit.xsd"
+             xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/5.7/phpunit.xsd"
              backupGlobals="true"
              backupStaticAttributes="false"
              <!--bootstrap="/path/to/bootstrap.php"-->
@@ -229,6 +229,8 @@ logging of the test execution.
       <log type="coverage-clover" target="/tmp/coverage.xml"/>
       <log type="coverage-php" target="/tmp/coverage.serialized"/>
       <log type="coverage-text" target="php://stdout" showUncoveredFiles="false"/>
+      <log type="json" target="/tmp/logfile.json"/>
+      <log type="tap" target="/tmp/logfile.tap"/>
       <log type="junit" target="/tmp/logfile.xml" logIncompleteSkipped="false"/>
       <log type="testdox-html" target="/tmp/testdox.html"/>
       <log type="testdox-text" target="/tmp/testdox.txt"/>
@@ -255,7 +257,15 @@ with the following options:
 
 -
 
+  ``--log-json /tmp/logfile.json``
+
+-
+
   ``> /tmp/logfile.txt``
+
+-
+
+  ``--log-tap /tmp/logfile.tap``
 
 -
 

@@ -11,7 +11,7 @@ Installing PHPUnit
 Requirements
 ############
 
-PHPUnit 6.5 requires PHP 7; using the latest version of PHP is highly
+PHPUnit 5.7 requires PHP 5.6; using the latest version of PHP is highly
 recommended.
 
 PHPUnit requires the `dom <http://php.net/manual/en/dom.setup.php>`_ and `json <http://php.net/manual/en/json.installation.php>`_
@@ -25,7 +25,7 @@ extensions. These standard extensions are enabled by default and cannot be
 disabled without patching PHP's build system and/or C sources.
 
 The code coverage report feature requires the
-`Xdebug <http://xdebug.org/>`_ (2.5.0 or later) and
+`Xdebug <http://xdebug.org/>`_ (2.2.1 or later) and
 `tokenizer <http://php.net/manual/en/tokenizer.installation.php>`_
 extensions.
 Generating XML reports requires the
@@ -44,6 +44,11 @@ file.
 The `phar <http://php.net/manual/en/phar.installation.php>`_
 extension is required for using PHP Archives (PHAR).
 
+The
+`openssl <http://php.net/manual/en/openssl.installation.php>`_
+extension is required for using the ``--self-update``
+feature of the PHAR.
+
 If the `Suhosin <http://suhosin.org/>`_ extension is
 enabled, you need to allow execution of PHARs in your
 ``php.ini``:
@@ -56,9 +61,9 @@ To globally install the PHAR:
 
 .. code-block:: bash
 
-    $  wget https://phar.phpunit.de/phpunit-6.2.phar
-    $  chmod +x phpunit-6.2.phar
-    $  sudo mv phpunit-6.2.phar /usr/local/bin/phpunit
+    $  wget https://phar.phpunit.de/phpunit-5.7.phar
+    $  chmod +x phpunit-5.7.phar
+    $  sudo mv phpunit-5.7.phar /usr/local/bin/phpunit
     $  phpunit --version
     PHPUnit x.y.z by Sebastian Bergmann and contributors.
 
@@ -66,8 +71,8 @@ You may also use the downloaded PHAR file directly:
 
 .. code-block:: bash
 
-    $  wget https://phar.phpunit.de/phpunit-6.2.phar
-    $  php phpunit-6.2.phar --version
+    $  wget https://phar.phpunit.de/phpunit-5.7.phar
+    $  php phpunit-5.7.phar --version
     PHPUnit x.y.z by Sebastian Bergmann and contributors.
 
 .. _installation.phar.windows:
@@ -90,7 +95,7 @@ Globally installing the PHAR involves the same procedure as manually
 
 #.
 
-   Download `<https://phar.phpunit.de/phpunit-6.2.phar>`_ and
+   Download `<https://phar.phpunit.de/phpunit-5.7.phar>`_ and
    save the file as :file:`C:\\bin\\phpunit.phar`
 
 #.
@@ -274,7 +279,7 @@ dependencies of your project:
 
 .. code-block:: bash
 
-    composer require --dev phpunit/phpunit ^6.2
+    composer require --dev phpunit/phpunit ^5.7
 
 .. _installation.optional-packages:
 

@@ -88,6 +88,77 @@ shows how failures and errors are denoted.
       </testsuite>
     </testsuites>
 
+.. _logging.tap:
+
+Test Results (TAP)
+##################
+
+The `Test Anything Protocol (TAP) <http://testanything.org/>`_
+is Perl's simple text-based interface between testing modules. The
+following example shows the TAP logfile generated for the tests in
+``ArrayTest``:
+
+.. code-block:: bash
+
+    TAP version 13
+    ok 1 - testNewArrayIsEmpty(ArrayTest)
+    ok 2 - testArrayContainsAnElement(ArrayTest)
+    1..2
+
+The following TAP logfile was generated for two tests,
+``testFailure`` and ``testError``,
+of a test case class named ``FailureErrorTest`` and
+shows how failures and errors are denoted.
+
+.. code-block:: bash
+
+    TAP version 13
+    not ok 1 - Failure: testFailure(FailureErrorTest)
+      ---
+      message: 'Failed asserting that <integer:2> matches expected value <integer:1>.'
+      severity: fail
+      data:
+        got: 2
+        expected: 1
+      ...
+    not ok 2 - Error: testError(FailureErrorTest)
+    1..2
+
+.. _logging.json:
+
+Test Results (JSON)
+###################
+
+The `JavaScript Object Notation (JSON) <http://www.json.org/>`_
+is a lightweight data-interchange format. The following example shows
+the JSON messages generated for the tests in ``ArrayTest``:
+
+.. code-block:: bash
+
+    {"event":"suiteStart","suite":"ArrayTest","tests":2}
+    {"event":"test","suite":"ArrayTest",
+     "test":"testNewArrayIsEmpty(ArrayTest)","status":"pass",
+     "time":0.000460147858,"trace":[],"message":""}
+    {"event":"test","suite":"ArrayTest",
+     "test":"testArrayContainsAnElement(ArrayTest)","status":"pass",
+     "time":0.000422954559,"trace":[],"message":""}
+
+The following JSON messages were generated for two tests,
+``testFailure`` and ``testError``,
+of a test case class named ``FailureErrorTest`` and
+show how failures and errors are denoted.
+
+.. code-block:: bash
+
+    {"event":"suiteStart","suite":"FailureErrorTest","tests":2}
+    {"event":"test","suite":"FailureErrorTest",
+     "test":"testFailure(FailureErrorTest)","status":"fail",
+     "time":0.0082459449768066,"trace":[],
+     "message":"Failed asserting that <integer:2> is equal to <integer:1>."}
+    {"event":"test","suite":"FailureErrorTest",
+     "test":"testError(FailureErrorTest)","status":"error",
+     "time":0.0083680152893066,"trace":[],"message":""}
+
 .. _logging.codecoverage.xml:
 
 Code Coverage (XML)

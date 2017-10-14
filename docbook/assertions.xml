@@ -67,7 +67,7 @@ class ArrayHasKeyTest extends TestCase
 }
 ?>]]></programlisting>
       <screen><userinput>phpunit ArrayHasKeyTest</userinput>
-PHPUnit 6.5.0 by Sebastian Bergmann and contributors.
+PHPUnit 5.7.0 by Sebastian Bergmann and contributors.
 
 F
 
@@ -106,7 +106,7 @@ class ClassHasAttributeTest extends TestCase
 }
 ?>]]></programlisting>
       <screen><userinput>phpunit ClassHasAttributeTest</userinput><![CDATA[
-PHPUnit 6.5.0 by Sebastian Bergmann and contributors.
+PHPUnit 5.7.0 by Sebastian Bergmann and contributors.
 
 F
 
@@ -189,7 +189,7 @@ class ClassHasStaticAttributeTest extends TestCase
 }
 ?>]]></programlisting>
       <screen><userinput>phpunit ClassHasStaticAttributeTest</userinput><![CDATA[
-PHPUnit 6.5.0 by Sebastian Bergmann and contributors.
+PHPUnit 5.7.0 by Sebastian Bergmann and contributors.
 
 F
 
@@ -231,7 +231,7 @@ class ContainsTest extends TestCase
 }
 ?>]]></programlisting>
       <screen><userinput>phpunit ContainsTest</userinput>
-PHPUnit 6.5.0 by Sebastian Bergmann and contributors.
+PHPUnit 5.7.0 by Sebastian Bergmann and contributors.
 
 F
 
@@ -265,7 +265,7 @@ class ContainsTest extends TestCase
 }
 ?>]]></programlisting>
       <screen><userinput>phpunit ContainsTest</userinput><![CDATA[
-PHPUnit 6.5.0 by Sebastian Bergmann and contributors.
+PHPUnit 5.7.0 by Sebastian Bergmann and contributors.
 
 F
 
@@ -301,7 +301,7 @@ class ContainsTest extends TestCase
 }
 ?>]]></programlisting>
       <screen><userinput>phpunit ContainsTest</userinput><![CDATA[
-PHPUnit 6.5.0 by Sebastian Bergmann and contributors.
+PHPUnit 5.7.0 by Sebastian Bergmann and contributors.
 
 F.
 
@@ -344,7 +344,7 @@ class ContainsOnlyTest extends TestCase
 }
 ?>]]></programlisting>
       <screen><userinput>phpunit ContainsOnlyTest</userinput><![CDATA[
-PHPUnit 6.5.0 by Sebastian Bergmann and contributors.
+PHPUnit 5.7.0 by Sebastian Bergmann and contributors.
 
 F
 
@@ -387,7 +387,7 @@ class ContainsOnlyInstancesOfTest extends TestCase
 }
 ?>]]></programlisting>
       <screen><userinput>phpunit ContainsOnlyInstancesOfTest</userinput><![CDATA[
-PHPUnit 6.5.0 by Sebastian Bergmann and contributors.
+PHPUnit 5.7.0 by Sebastian Bergmann and contributors.
 
 F
 
@@ -425,7 +425,7 @@ class CountTest extends TestCase
 }
 ?>]]></programlisting>
       <screen><userinput>phpunit CountTest</userinput>
-PHPUnit 6.5.0 by Sebastian Bergmann and contributors.
+PHPUnit 5.7.0 by Sebastian Bergmann and contributors.
 
 F
 
@@ -464,7 +464,7 @@ class DirectoryExistsTest extends TestCase
 }
 ?>]]></programlisting>
       <screen><userinput>phpunit DirectoryExistsTest</userinput><![CDATA[
-PHPUnit 6.5.0 by Sebastian Bergmann and contributors.
+PHPUnit 5.7.0 by Sebastian Bergmann and contributors.
 
 F
 
@@ -503,7 +503,7 @@ class DirectoryIsReadableTest extends TestCase
 }
 ?>]]></programlisting>
       <screen><userinput>phpunit DirectoryIsReadableTest</userinput><![CDATA[
-PHPUnit 6.5.0 by Sebastian Bergmann and contributors.
+PHPUnit 5.7.0 by Sebastian Bergmann and contributors.
 
 F
 
@@ -542,7 +542,7 @@ class DirectoryIsWritableTest extends TestCase
 }
 ?>]]></programlisting>
       <screen><userinput>phpunit DirectoryIsWritableTest</userinput><![CDATA[
-PHPUnit 6.5.0 by Sebastian Bergmann and contributors.
+PHPUnit 5.7.0 by Sebastian Bergmann and contributors.
 
 F
 
@@ -584,7 +584,7 @@ class EmptyTest extends TestCase
 }
 ?>]]></programlisting>
       <screen><userinput>phpunit EmptyTest</userinput>
-PHPUnit 6.5.0 by Sebastian Bergmann and contributors.
+PHPUnit 5.7.0 by Sebastian Bergmann and contributors.
 
 F
 
@@ -663,7 +663,7 @@ class EqualXMLStructureTest extends TestCase
 }
 ?>]]></programlisting>
       <screen><userinput>phpunit EqualXMLStructureTest</userinput><![CDATA[
-PHPUnit 6.5.0 by Sebastian Bergmann and contributors.
+PHPUnit 5.7.0 by Sebastian Bergmann and contributors.
 
 FFFF
 
@@ -742,7 +742,7 @@ class EqualsTest extends TestCase
 }
 ?>]]></programlisting>
       <screen><userinput>phpunit EqualsTest</userinput>
-PHPUnit 6.5.0 by Sebastian Bergmann and contributors.
+PHPUnit 5.7.0 by Sebastian Bergmann and contributors.
 
 FFF
 
@@ -806,7 +806,7 @@ class EqualsTest extends TestCase
 }
 ?>]]></programlisting>
       <screen><userinput>phpunit EqualsTest</userinput>
-PHPUnit 6.5.0 by Sebastian Bergmann and contributors.
+PHPUnit 5.7.0 by Sebastian Bergmann and contributors.
 
 .F
 
@@ -845,7 +845,7 @@ class EqualsTest extends TestCase
 }
 ?>]]></programlisting>
       <screen><userinput>phpunit EqualsTest</userinput><![CDATA[
-PHPUnit 6.5.0 by Sebastian Bergmann and contributors.
+PHPUnit 5.7.0 by Sebastian Bergmann and contributors.
 
 F
 
@@ -896,7 +896,7 @@ class EqualsTest extends TestCase
 }
 ?>]]></programlisting>
       <screen><userinput>phpunit EqualsTest</userinput><![CDATA[
-PHPUnit 6.5.0 by Sebastian Bergmann and contributors.
+PHPUnit 5.7.0 by Sebastian Bergmann and contributors.
 
 F
 
@@ -939,7 +939,7 @@ class EqualsTest extends TestCase
 }
 ?>]]></programlisting>
       <screen><userinput>phpunit EqualsTest</userinput><![CDATA[
-PHPUnit 6.5.0 by Sebastian Bergmann and contributors.
+PHPUnit 5.7.0 by Sebastian Bergmann and contributors.
 
 F
 
@@ -987,7 +987,7 @@ class FalseTest extends TestCase
 }
 ?>]]></programlisting>
       <screen><userinput>phpunit FalseTest</userinput>
-PHPUnit 6.5.0 by Sebastian Bergmann and contributors.
+PHPUnit 5.7.0 by Sebastian Bergmann and contributors.
 
 F
 
@@ -1026,7 +1026,7 @@ class FileEqualsTest extends TestCase
 }
 ?>]]></programlisting>
       <screen><userinput>phpunit FileEqualsTest</userinput>
-PHPUnit 6.5.0 by Sebastian Bergmann and contributors.
+PHPUnit 5.7.0 by Sebastian Bergmann and contributors.
 
 F
 
@@ -1071,7 +1071,7 @@ class FileExistsTest extends TestCase
 }
 ?>]]></programlisting>
       <screen><userinput>phpunit FileExistsTest</userinput><![CDATA[
-PHPUnit 6.5.0 by Sebastian Bergmann and contributors.
+PHPUnit 5.7.0 by Sebastian Bergmann and contributors.
 
 F
 
@@ -1110,7 +1110,7 @@ class FileIsReadableTest extends TestCase
 }
 ?>]]></programlisting>
       <screen><userinput>phpunit FileIsReadableTest</userinput><![CDATA[
-PHPUnit 6.5.0 by Sebastian Bergmann and contributors.
+PHPUnit 5.7.0 by Sebastian Bergmann and contributors.
 
 F
 
@@ -1149,7 +1149,7 @@ class FileIsWritableTest extends TestCase
 }
 ?>]]></programlisting>
       <screen><userinput>phpunit FileIsWritableTest</userinput><![CDATA[
-PHPUnit 6.5.0 by Sebastian Bergmann and contributors.
+PHPUnit 5.7.0 by Sebastian Bergmann and contributors.
 
 F
 
@@ -1188,7 +1188,7 @@ class GreaterThanTest extends TestCase
 }
 ?>]]></programlisting>
       <screen><userinput>phpunit GreaterThanTest</userinput>
-PHPUnit 6.5.0 by Sebastian Bergmann and contributors.
+PHPUnit 5.7.0 by Sebastian Bergmann and contributors.
 
 F
 
@@ -1227,7 +1227,7 @@ class GreatThanOrEqualTest extends TestCase
 }
 ?>]]></programlisting>
       <screen><userinput>phpunit GreaterThanOrEqualTest</userinput>
-PHPUnit 6.5.0 by Sebastian Bergmann and contributors.
+PHPUnit 5.7.0 by Sebastian Bergmann and contributors.
 
 F
 
@@ -1266,7 +1266,7 @@ class InfiniteTest extends TestCase
 }
 ?>]]></programlisting>
       <screen><userinput>phpunit InfiniteTest</userinput>
-PHPUnit 6.5.0 by Sebastian Bergmann and contributors.
+PHPUnit 5.7.0 by Sebastian Bergmann and contributors.
 
 F
 
@@ -1308,7 +1308,7 @@ class InstanceOfTest extends TestCase
 }
 ?>]]></programlisting>
       <screen><userinput>phpunit InstanceOfTest</userinput><![CDATA[
-PHPUnit 6.5.0 by Sebastian Bergmann and contributors.
+PHPUnit 5.7.0 by Sebastian Bergmann and contributors.
 
 F
 
@@ -1350,7 +1350,7 @@ class InternalTypeTest extends TestCase
 }
 ?>]]></programlisting>
       <screen><userinput>phpunit InternalTypeTest</userinput><![CDATA[
-PHPUnit 6.5.0 by Sebastian Bergmann and contributors.
+PHPUnit 5.7.0 by Sebastian Bergmann and contributors.
 
 F
 
@@ -1389,7 +1389,7 @@ class IsReadableTest extends TestCase
 }
 ?>]]></programlisting>
       <screen><userinput>phpunit IsReadableTest</userinput><![CDATA[
-PHPUnit 6.5.0 by Sebastian Bergmann and contributors.
+PHPUnit 5.7.0 by Sebastian Bergmann and contributors.
 
 F
 
@@ -1428,7 +1428,7 @@ class IsWritableTest extends TestCase
 }
 ?>]]></programlisting>
       <screen><userinput>phpunit IsWritableTest</userinput><![CDATA[
-PHPUnit 6.5.0 by Sebastian Bergmann and contributors.
+PHPUnit 5.7.0 by Sebastian Bergmann and contributors.
 
 F
 
@@ -1470,7 +1470,7 @@ class JsonFileEqualsJsonFileTest extends TestCase
 }
 ?>]]></programlisting>
       <screen><userinput>phpunit JsonFileEqualsJsonFileTest</userinput>
-PHPUnit 6.5.0 by Sebastian Bergmann and contributors.
+PHPUnit 5.7.0 by Sebastian Bergmann and contributors.
 
 F
 
@@ -1513,7 +1513,7 @@ class JsonStringEqualsJsonFileTest extends TestCase
 }
 ?>]]></programlisting>
       <screen><userinput>phpunit JsonStringEqualsJsonFileTest</userinput>
-PHPUnit 6.5.0 by Sebastian Bergmann and contributors.
+PHPUnit 5.7.0 by Sebastian Bergmann and contributors.
 
 F
 
@@ -1557,7 +1557,7 @@ class JsonStringEqualsJsonStringTest extends TestCase
 }
 ?>]]></programlisting>
       <screen><userinput>phpunit JsonStringEqualsJsonStringTest</userinput>
-PHPUnit 6.5.0 by Sebastian Bergmann and contributors.
+PHPUnit 5.7.0 by Sebastian Bergmann and contributors.
 
 F
 
@@ -1603,7 +1603,7 @@ class LessThanTest extends TestCase
 }
 ?>]]></programlisting>
       <screen><userinput>phpunit LessThanTest</userinput>
-PHPUnit 6.5.0 by Sebastian Bergmann and contributors.
+PHPUnit 5.7.0 by Sebastian Bergmann and contributors.
 
 F
 
@@ -1642,7 +1642,7 @@ class LessThanOrEqualTest extends TestCase
 }
 ?>]]></programlisting>
       <screen><userinput>phpunit LessThanOrEqualTest</userinput>
-PHPUnit 6.5.0 by Sebastian Bergmann and contributors.
+PHPUnit 5.7.0 by Sebastian Bergmann and contributors.
 
 F
 
@@ -1679,7 +1679,7 @@ class NanTest extends TestCase
 }
 ?>]]></programlisting>
       <screen><userinput>phpunit NanTest</userinput>
-PHPUnit 6.5.0 by Sebastian Bergmann and contributors.
+PHPUnit 5.7.0 by Sebastian Bergmann and contributors.
 
 F
 
@@ -1718,7 +1718,7 @@ class NullTest extends TestCase
 }
 ?>]]></programlisting>
       <screen><userinput>phpunit NotNullTest</userinput>
-PHPUnit 6.5.0 by Sebastian Bergmann and contributors.
+PHPUnit 5.7.0 by Sebastian Bergmann and contributors.
 
 F
 
@@ -1757,7 +1757,7 @@ class ObjectHasAttributeTest extends TestCase
 }
 ?>]]></programlisting>
       <screen><userinput>phpunit ObjectHasAttributeTest</userinput><![CDATA[
-PHPUnit 6.5.0 by Sebastian Bergmann and contributors.
+PHPUnit 5.7.0 by Sebastian Bergmann and contributors.
 
 F
 
@@ -1796,7 +1796,7 @@ class RegExpTest extends TestCase
 }
 ?>]]></programlisting>
       <screen><userinput>phpunit RegExpTest</userinput><![CDATA[
-PHPUnit 6.5.0 by Sebastian Bergmann and contributors.
+PHPUnit 5.7.0 by Sebastian Bergmann and contributors.
 
 F
 
@@ -1835,7 +1835,7 @@ class StringMatchesFormatTest extends TestCase
 }
 ?>]]></programlisting>
       <screen><userinput>phpunit StringMatchesFormatTest</userinput><![CDATA[
-PHPUnit 6.5.0 by Sebastian Bergmann and contributors.
+PHPUnit 5.7.0 by Sebastian Bergmann and contributors.
 
 F
 
@@ -1888,7 +1888,7 @@ class StringMatchesFormatFileTest extends TestCase
 }
 ?>]]></programlisting>
       <screen><userinput>phpunit StringMatchesFormatFileTest</userinput><![CDATA[
-PHPUnit 6.5.0 by Sebastian Bergmann and contributors.
+PHPUnit 5.7.0 by Sebastian Bergmann and contributors.
 
 F
 
@@ -1931,7 +1931,7 @@ class SameTest extends TestCase
 }
 ?>]]></programlisting>
       <screen><userinput>phpunit SameTest</userinput>
-PHPUnit 6.5.0 by Sebastian Bergmann and contributors.
+PHPUnit 5.7.0 by Sebastian Bergmann and contributors.
 
 F
 
@@ -1965,7 +1965,7 @@ class SameTest extends TestCase
 }
 ?>]]></programlisting>
       <screen><userinput>phpunit SameTest</userinput>
-PHPUnit 6.5.0 by Sebastian Bergmann and contributors.
+PHPUnit 5.7.0 by Sebastian Bergmann and contributors.
 
 F
 
@@ -2004,7 +2004,7 @@ class StringEndsWithTest extends TestCase
 }
 ?>]]></programlisting>
       <screen><userinput>phpunit StringEndsWithTest</userinput><![CDATA[
-PHPUnit 6.5.0 by Sebastian Bergmann and contributors.
+PHPUnit 5.7.0 by Sebastian Bergmann and contributors.
 
 F
 
@@ -2043,7 +2043,7 @@ class StringEqualsFileTest extends TestCase
 }
 ?>]]></programlisting>
       <screen><userinput>phpunit StringEqualsFileTest</userinput>
-PHPUnit 6.5.0 by Sebastian Bergmann and contributors.
+PHPUnit 5.7.0 by Sebastian Bergmann and contributors.
 
 F
 
@@ -2088,7 +2088,7 @@ class StringStartsWithTest extends TestCase
 }
 ?>]]></programlisting>
       <screen><userinput>phpunit StringStartsWithTest</userinput><![CDATA[
-PHPUnit 6.5.0 by Sebastian Bergmann and contributors.
+PHPUnit 5.7.0 by Sebastian Bergmann and contributors.
 
 F
 
@@ -2351,7 +2351,7 @@ class TrueTest extends TestCase
 }
 ?>]]></programlisting>
       <screen><userinput>phpunit TrueTest</userinput>
-PHPUnit 6.5.0 by Sebastian Bergmann and contributors.
+PHPUnit 5.7.0 by Sebastian Bergmann and contributors.
 
 F
 
@@ -2391,7 +2391,7 @@ class XmlFileEqualsXmlFileTest extends TestCase
 }
 ?>]]></programlisting>
       <screen><userinput>phpunit XmlFileEqualsXmlFileTest</userinput><![CDATA[
-PHPUnit 6.5.0 by Sebastian Bergmann and contributors.
+PHPUnit 5.7.0 by Sebastian Bergmann and contributors.
 
 F
 
@@ -2439,7 +2439,7 @@ class XmlStringEqualsXmlFileTest extends TestCase
 }
 ?>]]></programlisting>
       <screen><userinput>phpunit XmlStringEqualsXmlFileTest</userinput><![CDATA[
-PHPUnit 6.5.0 by Sebastian Bergmann and contributors.
+PHPUnit 5.7.0 by Sebastian Bergmann and contributors.
 
 F
 
@@ -2487,7 +2487,7 @@ class XmlStringEqualsXmlStringTest extends TestCase
 }
 ?>]]></programlisting>
       <screen><userinput>phpunit XmlStringEqualsXmlStringTest</userinput><![CDATA[
-PHPUnit 6.5.0 by Sebastian Bergmann and contributors.
+PHPUnit 5.7.0 by Sebastian Bergmann and contributors.
 
 F
 

@@ -48,7 +48,7 @@
     </para>
 
     <screen><userinput>phpunit --bootstrap src/autoload.php tests</userinput>
-PHPUnit 6.5.0 by Sebastian Bergmann.
+PHPUnit 5.7.0 by Sebastian Bergmann.
 
 .................................
 
@@ -70,7 +70,7 @@ OK (33 tests, 52 assertions)</screen>
     </para>
 
     <screen><userinput>phpunit --bootstrap src/autoload.php tests/CurrencyTest</userinput>
-PHPUnit 6.5.0 by Sebastian Bergmann.
+PHPUnit 5.7.0 by Sebastian Bergmann.
 
 ........
 
@@ -84,7 +84,7 @@ OK (8 tests, 8 assertions)</screen>
     </para>
 
     <screen><userinput>phpunit --bootstrap src/autoload.php --filter testObjectCanBeConstructedForValidConstructorArgument tests</userinput>
-PHPUnit 6.5.0 by Sebastian Bergmann.
+PHPUnit 5.7.0 by Sebastian Bergmann.
 
 ..
 

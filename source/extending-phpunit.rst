@@ -354,7 +354,7 @@ and the second value is the actual one.
 
 .. code-block:: bash
 
-    PHPUnit 6.5.0 by Sebastian Bergmann and contributors.
+    PHPUnit 5.7.0 by Sebastian Bergmann and contributors.
 
     .F
 

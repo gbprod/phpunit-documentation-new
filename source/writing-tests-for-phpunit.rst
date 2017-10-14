@@ -179,7 +179,7 @@ exploiting the dependencies between tests as shown in
 .. code-block:: bash
 
     $ phpunit --verbose DependencyFailureTest
-    PHPUnit 6.5.0 by Sebastian Bergmann and contributors.
+    PHPUnit 5.7.0 by Sebastian Bergmann and contributors.
 
     FS
 
@@ -248,7 +248,7 @@ See :numref:`writing-tests-for-phpunit.examples.MultipleDependencies.php`
 .. code-block:: bash
 
     $ phpunit --verbose MultipleDependenciesTest
-    PHPUnit 6.5.0 by Sebastian Bergmann and contributors.
+    PHPUnit 5.7.0 by Sebastian Bergmann and contributors.
 
     ...
 
@@ -305,7 +305,7 @@ of the array as its arguments.
 .. code-block:: bash
 
     $ phpunit DataTest
-    PHPUnit 6.5.0 by Sebastian Bergmann and contributors.
+    PHPUnit 5.7.0 by Sebastian Bergmann and contributors.
 
     ...F
 
@@ -356,7 +356,7 @@ Output will be more verbose as it'll contain that name of a dataset that breaks 
 .. code-block:: bash
 
     $ phpunit DataTest
-    PHPUnit 6.5.0 by Sebastian Bergmann and contributors.
+    PHPUnit 5.7.0 by Sebastian Bergmann and contributors.
 
     ...F
 
@@ -401,7 +401,7 @@ Output will be more verbose as it'll contain that name of a dataset that breaks 
 .. code-block:: bash
 
     $ phpunit DataTest
-    PHPUnit 6.5.0 by Sebastian Bergmann and contributors.
+    PHPUnit 5.7.0 by Sebastian Bergmann and contributors.
 
     ...F
 
@@ -513,7 +513,7 @@ See :numref:`writing-tests-for-phpunit.data-providers.examples.DependencyAndData
 .. code-block:: bash
 
     $ phpunit --verbose DependencyAndDataProviderComboTest
-    PHPUnit 6.5.0 by Sebastian Bergmann and contributors.
+    PHPUnit 5.7.0 by Sebastian Bergmann and contributors.
 
     ...F
 
@@ -581,7 +581,7 @@ whether an exception is thrown by the code under test.
 .. code-block:: bash
 
     $ phpunit ExceptionTest
-    PHPUnit 6.5.0 by Sebastian Bergmann and contributors.
+    PHPUnit 5.7.0 by Sebastian Bergmann and contributors.
 
     F
 
@@ -630,7 +630,7 @@ shows an example.
 .. code-block:: bash
 
     $ phpunit ExceptionTest
-    PHPUnit 6.5.0 by Sebastian Bergmann and contributors.
+    PHPUnit 5.7.0 by Sebastian Bergmann and contributors.
 
     F
 
@@ -671,7 +671,7 @@ shown in :numref:`writing-tests-for-phpunit.exceptions.examples.ErrorTest.php`.
     class ExpectedErrorTest extends TestCase
     {
         /**
-         * @expectedException PHPUnit\Framework\Error
+         * @expectedException PHPUnit_Framework_Error
          */
         public function testFailingInclude()
         {
@@ -683,7 +683,7 @@ shown in :numref:`writing-tests-for-phpunit.exceptions.examples.ErrorTest.php`.
 .. code-block:: bash
 
     $ phpunit -d error_reporting=2 ExpectedErrorTest
-    PHPUnit 6.5.0 by Sebastian Bergmann and contributors.
+    PHPUnit 5.7.0 by Sebastian Bergmann and contributors.
 
     .
 
@@ -691,8 +691,8 @@ shown in :numref:`writing-tests-for-phpunit.exceptions.examples.ErrorTest.php`.
 
     OK (1 test, 1 assertion)
 
-``PHPUnit\Framework\Error\Notice`` and
-``PHPUnit\Framework\Error\Warning`` represent PHP notices
+``PHPUnit_Framework_Error_Notice`` and
+``PHPUnit_Framework_Error_Warning`` represent PHP notices
 and warnings, respectively.
 
 .. admonition:: Note
@@ -707,7 +707,7 @@ When testing that relies on php functions that trigger errors like
 ``fopen`` it can sometimes be useful to use error
 suppression while testing. This allows you to check the return values by
 suppressing notices that would lead to a phpunit
-``PHPUnit\Framework\Error\Notice``.
+``PHPUnit_Framework_Error_Notice``.
 
 .. code-block:: php
     :caption: Testing return values of code that uses PHP Errors
@@ -739,7 +739,7 @@ suppressing notices that would lead to a phpunit
 .. code-block:: bash
 
     $ phpunit ErrorSuppressionTest
-    PHPUnit 6.5.0 by Sebastian Bergmann and contributors.
+    PHPUnit 5.7.0 by Sebastian Bergmann and contributors.
 
     .
 
@@ -795,7 +795,7 @@ test will be counted as a failure.
 .. code-block:: bash
 
     $ phpunit OutputTest
-    PHPUnit 6.5.0 by Sebastian Bergmann and contributors.
+    PHPUnit 5.7.0 by Sebastian Bergmann and contributors.
 
     .F
 
@@ -866,7 +866,7 @@ context as possible that can help to identify the problem.
 .. code-block:: bash
 
     $ phpunit ArrayDiffTest
-    PHPUnit 6.5.0 by Sebastian Bergmann and contributors.
+    PHPUnit 5.7.0 by Sebastian Bergmann and contributors.
 
     F
 
@@ -921,7 +921,7 @@ and provide a few lines of context around every difference.
 .. code-block:: bash
 
     $ phpunit LongArrayDiffTest
-    PHPUnit 6.5.0 by Sebastian Bergmann and contributors.
+    PHPUnit 5.7.0 by Sebastian Bergmann and contributors.
 
     F
 
@@ -980,7 +980,7 @@ functions on arrays or objects.
 .. code-block:: bash
 
     $ phpunit ArrayWeakComparisonTest
-    PHPUnit 6.5.0 by Sebastian Bergmann and contributors.
+    PHPUnit 5.7.0 by Sebastian Bergmann and contributors.
 
     F
 
