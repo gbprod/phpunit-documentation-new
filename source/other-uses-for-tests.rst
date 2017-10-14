@@ -41,7 +41,7 @@ Let us take a look at the agile documentation generated for a
 .. code-block:: bash
 
     $ phpunit --testdox BankAccountTest
-    PHPUnit 6.5.0 by Sebastian Bergmann and contributors.
+    PHPUnit 6.4.0 by Sebastian Bergmann and contributors.
 
     BankAccount
      [x] Balance is initially zero

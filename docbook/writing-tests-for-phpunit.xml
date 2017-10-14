@@ -184,7 +184,7 @@ class DependencyFailureTest extends TestCase
 ?>]]></programlisting>
 
       <screen><userinput>phpunit --verbose DependencyFailureTest</userinput><![CDATA[
-PHPUnit 6.5.0 by Sebastian Bergmann and contributors.
+PHPUnit 6.4.0 by Sebastian Bergmann and contributors.
 
 FS
 
@@ -255,7 +255,7 @@ class MultipleDependenciesTest extends TestCase
 ?>]]></programlisting>
 
       <screen><userinput>phpunit --verbose MultipleDependenciesTest</userinput><![CDATA[
-PHPUnit 6.5.0 by Sebastian Bergmann and contributors.
+PHPUnit 6.4.0 by Sebastian Bergmann and contributors.
 
 ...
 
@@ -314,7 +314,7 @@ class DataTest extends TestCase
 ?>]]></programlisting>
 
     <screen><userinput>phpunit DataTest</userinput><![CDATA[
-PHPUnit 6.5.0 by Sebastian Bergmann and contributors.
+PHPUnit 6.4.0 by Sebastian Bergmann and contributors.
 
 ...F
 
@@ -364,7 +364,7 @@ class DataTest extends TestCase
 ?>]]></programlisting>
 
     <screen><userinput>phpunit DataTest</userinput><![CDATA[
-PHPUnit 6.5.0 by Sebastian Bergmann and contributors.
+PHPUnit 6.4.0 by Sebastian Bergmann and contributors.
 
 ...F
 
@@ -406,7 +406,7 @@ class DataTest extends TestCase
 ?>]]></programlisting>
 
     <screen><userinput>phpunit DataTest</userinput><![CDATA[
-PHPUnit 6.5.0 by Sebastian Bergmann and contributors.
+PHPUnit 6.4.0 by Sebastian Bergmann and contributors.
 
 ...F
 
@@ -519,7 +519,7 @@ class DependencyAndDataProviderComboTest extends TestCase
 }
 ?>]]></programlisting>
         <screen><userinput>phpunit --verbose DependencyAndDataProviderComboTest</userinput><![CDATA[
-PHPUnit 6.5.0 by Sebastian Bergmann and contributors.
+PHPUnit 6.4.0 by Sebastian Bergmann and contributors.
 
 ...F
 
@@ -600,7 +600,7 @@ class ExceptionTest extends TestCase
 }
 ?>]]></programlisting>
       <screen><userinput>phpunit ExceptionTest</userinput>
-PHPUnit 6.5.0 by Sebastian Bergmann and contributors.
+PHPUnit 6.4.0 by Sebastian Bergmann and contributors.
 
 F
 
@@ -656,7 +656,7 @@ class ExceptionTest extends TestCase
 }
 ?>]]></programlisting>
       <screen><userinput>phpunit ExceptionTest</userinput>
-PHPUnit 6.5.0 by Sebastian Bergmann and contributors.
+PHPUnit 6.4.0 by Sebastian Bergmann and contributors.
 
 F
 
@@ -713,7 +713,7 @@ class ExpectedErrorTest extends TestCase
 }
 ?>]]></programlisting>
       <screen><userinput>phpunit -d error_reporting=2 ExpectedErrorTest</userinput>
-PHPUnit 6.5.0 by Sebastian Bergmann and contributors.
+PHPUnit 6.4.0 by Sebastian Bergmann and contributors.
 
 .
 
@@ -773,7 +773,7 @@ class FileWriter
 
 ?>]]></programlisting>
       <screen><userinput>phpunit ErrorSuppressionTest</userinput>
-PHPUnit 6.5.0 by Sebastian Bergmann and contributors.
+PHPUnit 6.4.0 by Sebastian Bergmann and contributors.
 
 .
 
@@ -829,7 +829,7 @@ class OutputTest extends TestCase
 }
 ?>]]></programlisting>
       <screen><userinput>phpunit OutputTest</userinput>
-PHPUnit 6.5.0 by Sebastian Bergmann and contributors.
+PHPUnit 6.4.0 by Sebastian Bergmann and contributors.
 
 .F
 
@@ -917,7 +917,7 @@ class ArrayDiffTest extends TestCase
 }
 ?>]]></programlisting>
       <screen><userinput>phpunit ArrayDiffTest</userinput><![CDATA[
-PHPUnit 6.5.0 by Sebastian Bergmann and contributors.
+PHPUnit 6.4.0 by Sebastian Bergmann and contributors.
 
 F
 
@@ -970,7 +970,7 @@ class LongArrayDiffTest extends TestCase
 }
 ?>]]></programlisting>
       <screen><userinput>phpunit LongArrayDiffTest</userinput><![CDATA[
-PHPUnit 6.5.0 by Sebastian Bergmann and contributors.
+PHPUnit 6.4.0 by Sebastian Bergmann and contributors.
 
 F
 
@@ -1027,7 +1027,7 @@ class ArrayWeakComparisonTest extends TestCase
 }
 ?>]]></programlisting>
         <screen><userinput>phpunit ArrayWeakComparisonTest</userinput><![CDATA[
-PHPUnit 6.5.0 by Sebastian Bergmann and contributors.
+PHPUnit 6.4.0 by Sebastian Bergmann and contributors.
 
 F
 
