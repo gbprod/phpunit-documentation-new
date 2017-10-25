@@ -32,6 +32,9 @@ def get_version():
     else:
         return 'unknown'
 
+def setup(app):
+    app.add_javascript("remove-version-warning.js")
+
 highlight_language = 'php'
 
 # enable highlighting for PHP code not between ``<?php ... ?>`` by default
